@@ -6,6 +6,8 @@ var Dice1 = Math.floor(Math.random()*7);
 console.log(Dice1);
 var Dice2 = Math.floor(Math.random()*7);
 console.log(Dice2);
+var Dice3 = Math.floor(Math.random()*7);
+console.log(Dice3);
 
  
 

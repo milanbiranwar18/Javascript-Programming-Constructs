@@ -45,6 +45,17 @@ var breadth = 40;
 var onemeter = 0.3048;
 console.log("Rectangular Plot of 60 feet x 40 feet is "+ length*onemeter+" meter * "+ breadth*onemeter+ " meter");
 
+//UC5 Unit Conversion (c)
+// 1 acre = 4047 sq-m
+let length;
+let breadth;
+let area = (length * breadth);
+let areas = (area * 0.0929).toFixed(2);
+console.log('area in sq metres = ' + areas + ' sq-m');
+
+var areaInAcre = (totalArea / 4047).toFixed(2);  
+console.log('Total Area of 25 such plots in acre = ' + areaInAcre + ' acres');
+
 
 
 

@@ -36,7 +36,14 @@ console.log("Average of 5 random number is " + avg);
 // 1 ft = 12 in 
 var Feet = 1/12;
 var inch = 42;
-console.log("42 in = " + Feet*inch + " "+"ft");   
+console.log("42 in = " + Feet*inch + " "+"ft");  
+
+//UC5 Unit Conversion (b)
+//Rectangular Plot of 60 feet x 40 feet in meters
+var length = 60;
+var breadth = 40;
+var onemeter = 0.3048;
+console.log("Rectangular Plot of 60 feet x 40 feet is "+ length*onemeter+" meter * "+ breadth*onemeter+ " meter");
 
 
 
